@@ -17,7 +17,7 @@ Well, This setup inspired by Yisus7u7 Desktop. and no, this is not a fork. keep 
 | **GTK3 & QT5 Apps** | ![gtk3qt5](https://github.com/Putu-Justine/termux-desktop-xfce/blob/master/github-assets/gtk3-and-qt5.png) |
 
 # Installation
-```curl -sLf https://github.com/Putu-Justine/termux-desktop-xfce/raw/master/termuxstrap.sh | bash```
+```curl -o termuxstrap.sh https://github.com/Putu-Justine/termux-desktop-xfce/raw/master/termuxstrap.sh && bash termuxstrap.sh```
 
 Just copy this command into termux and rest is gud. :)
 
