@@ -54,7 +54,7 @@ clear
 # Now install some external stuff that does not available on termux repo
 echo '- Installing Materia GTK Theme (6/9)'
 sleep 3
-#wget http://materia-gtk-theme.tar.xz >> $PKGLOG 2>&1
+wget https://github.com/Putu-Justine/termux-desktop-xfce/raw/master/materia-gtk-theme.tar.xz >> $PKGLOG 2>&1
 tar -xvf materia-gtk-theme.tar.xz >> $PKGLOG 2>&1
 mv Materia $UDIR/share/themes
 mv Materia-compact $UDIR/share/themes
@@ -72,7 +72,7 @@ clear
 
 # Install pre-configured data to $HOME
 echo '- Installing Pre-configured data to $HOME (8/9)'
-#wget http://riaru-desktop-data.tar.xz >> $PKGLOG 2>&1
+wget https://github.com/Putu-Justine/termux-desktop-xfce/raw/master/riaru-desktop-data.tar.xz >> $PKGLOG 2>&1
 tar -xvf riaru-desktop-data.tar.xz >> $PKGLOG 2>&1
 sleep 1
 clear
