@@ -47,7 +47,7 @@ apt update
 clear
 echo '- Installing essential packages (5/9)'
 sleep 3
-apt install xfce4 xfce4-goodies synaptic pavucontrol-qt pulseaudio kvantum epiphany papirus-icon-theme git wget tigervnc qt5ct -y
+apt install xfce4 xfce4-goodies synaptic pavucontrol-qt pulseaudio kvantum papirus-icon-theme git wget tigervnc qt5ct -y
 sleep 1
 clear
 
@@ -81,14 +81,11 @@ clear
 echo '- Setting up a fake xdg-user-dirs (9/9)'
 sleep 3
 termux-setup-storage
-rm -rf $HOME/storage
 ln -sf /storage/emulated/0/Download $HOME/Downloads
 ln -sf /storage/emulated/0/Documents $HOME/Documents
 ln -sf /storage/emulated/0/Movies $HOME/Videos
 ln -sf /storage/emulated/0/Pictures $HOME/Pictures
 ln -sf /storage/emulated/0/Music $HOME/Music
-mkdir Storage
-ln -sf /storage/emulated/0/ "$HOME/Storage/Internal Storage"
 
 # Clean up, but silent
 rm -rf materia-kde
