@@ -1,7 +1,7 @@
 ![banner](https://github.com/Putu-Justine/termux-desktop-xfce/blob/master/github-assets/banner.png)
 # What's this?
 Yet another automated setup for xfce. Made by therealmodder/riaru.
-# Purpose of this rice
+# Purpose of this setup
 Well, This setup inspired by Yisus7u7 Desktop. and no, this is not a fork. keep in mind that this script install only the required utilities for the setup. so you may need to install another software with Synaptic.
 # Requirements
 - Android 7.0+
