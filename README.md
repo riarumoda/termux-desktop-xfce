@@ -12,9 +12,9 @@ Well, This setup inspired by Yisus7u7 Desktop. and no, this is not a fork.
 # Screenshots
 | Location | Screenshots |
 | --- | --- |
-| **Desktop** | ![desktop](https://github.com/Putu-Justine/dotfiles/blob/master/github-assets/desktop.png) |
-| **GTK3 Apps with libxfceui** | ![gtk3xfceui](https://github.com/Putu-Justine/dotfiles/blob/master/github-assets/gtk3-with-xfceui.png) |
-| **GTK3 & QT5 Apps** | ![gtk3qt5](https://github.com/Putu-Justine/dotfiles/blob/master/github-assets/gtk3-and-qt5.png) |
+| **Desktop** | ![desktop](https://github.com/Putu-Justine/termux-desktop-xfce/blob/master/github-assets/desktop.png) |
+| **GTK3 Apps with libxfceui** | ![gtk3xfceui](https://github.com/Putu-Justine/termux-desktop-xfce/blob/master/github-assets/gtk3-with-xfceui.png) |
+| **GTK3 & QT5 Apps** | ![gtk3qt5](https://github.com/Putu-Justine/termux-desktop-xfce/blob/master/github-assets/gtk3-and-qt5.png) |
 
 # Installation (Arch Linux Only, fresh install)
 Install the deps first :
