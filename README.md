@@ -18,6 +18,7 @@ Well, This setup inspired by Yisus7u7 Desktop. and no, this is not a fork. keep 
 
 # Installation
 ```curl -sLf https://github.com/Putu-Justine/termux-desktop-xfce/raw/master/termuxstrap.sh | bash```
+
 Just copy this command into termux and rest is gud. :)
 
 # Special thanks
