@@ -74,6 +74,7 @@ clear
 echo '- Installing Pre-configured data to $HOME (8/9)'
 wget https://github.com/Putu-Justine/termux-desktop-xfce/raw/master/riaru-desktop-data.tar.xz >> $PKGLOG 2>&1
 tar -xvf riaru-desktop-data.tar.xz >> $PKGLOG 2>&1
+echo "export QT_QPA_PLATFORMTHEME=qt5ct" >> $HOME/.bashrc
 sleep 1
 clear
 
